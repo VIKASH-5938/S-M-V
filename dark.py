@@ -19,7 +19,7 @@ db = client['rbbl']
 users_collection = db['VAMPIREXCHEATS']
 redeem_codes_collection = db['redeem_codes0']
 
-TELEGRAM_BOT_TOKEN = '7385947182:AAHKalWHD-w3V5SqjTXc2e45SjLz-171He0'
+TELEGRAM_BOT_TOKEN = '7688551896:AAEeAG3kA0A1VpZX8_-1fB2gv7oIsQbEZNQ'
 ADMIN_USER_ID = 5344691638 
 
 cooldown_dict = {}
